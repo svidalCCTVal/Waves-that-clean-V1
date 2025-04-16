@@ -13,7 +13,7 @@ const int IN4 = A4;  // Dirección motor derecho (hacia atrás)
 const int ENB = 5;   // Enable motor derecho
 
 int prueba = 10;
-
+float prueba2 = 20;
 // Pines para motores brushless
 const uint8_t VescOutputPinA = 11; // Motor brushless de abajo
 const uint8_t VescOutputPinB = 6;  // Motor brushless de arriba
