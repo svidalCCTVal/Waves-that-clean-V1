@@ -2,6 +2,7 @@
 #include "Servo.h"
 
 //linea de prueba de git-repo desde computador escritorio de Seba V. 
+//línea de prueba de git-repo desde notebook de Seba V. 
 
 // Pines para motores de desplazamiento
 const int ENA = 3;   // Enable motor izquierdo
