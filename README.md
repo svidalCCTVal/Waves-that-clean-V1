@@ -4,4 +4,4 @@
 
  ### Some trouble shootings 
 
- Depending when and to whom you buy an Arduino Nano, the bootloader can change. Refer to file 
+ 1. Depending when and to whom you buy an Arduino Nano, the bootloader can change. Refer to the file platofrmio.ini and change the 
