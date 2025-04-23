@@ -1,10 +1,7 @@
 #include <Arduino.h>
 #include "Servo.h"
 
-//linea de prueba de git-repo desde computador escritorio de Seba V. 
-//línea de prueba de git-repo desde notebook de Seba V. 
-
-// Pines para motores de desplazamiento
+// Pines para control Puente-H de motores de desplazamiento
 const int ENA = 3;   // Enable motor izquierdo
 const int IN1 = 4;   // Dirección motor izquierdo (hacia adelante)
 const int IN2 = 2;   // Dirección motor izquierdo (hacia atrás)
@@ -12,10 +9,7 @@ const int IN3 = 13;  // Dirección motor derecho (hacia adelante)
 const int IN4 = A4;  // Dirección motor derecho (hacia atrás)
 const int ENB = 5;   // Enable motor derecho
 
-int prueba = 10;
-float prueba2 = 20;
-float prueba = 3.3; 
-// Pines para motores brushless
+// Pines para control PWM de motores brushless
 const uint8_t VescOutputPinA = 11; // Motor brushless de abajo
 const uint8_t VescOutputPinB = 6;  // Motor brushless de arriba
 
